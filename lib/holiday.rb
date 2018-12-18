@@ -26,7 +26,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       :new_years => ["Party Hats"]
     },
     :summer => {
-      :fourth_of_july => ["Fireworks", "Watermelon", "BBQ"]
+      :fourth_of_july => ["Fireworks", "BBQ"]
     },
     :fall => {
       :thanksgiving => ["Turkey"]
