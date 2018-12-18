@@ -60,8 +60,8 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  holiday_hash[:winter].each do |key, value|
-    value.flatten
+  holiday_hash[:winter].values
+
 end
 end
 
