@@ -49,7 +49,8 @@ end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash[:spring].each do |key, value|
-    value << "Grill"# again, holiday_hash is the same as the ones above
+    value << "Grill"
+    value << "Table Cloth"# again, holiday_hash is the same as the ones above
   end
 
 end
