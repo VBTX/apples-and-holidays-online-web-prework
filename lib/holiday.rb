@@ -36,9 +36,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     }
   }
 
-  holiday_supplies[:winter].each do |key, value|
-    arr = key[value]
-    arr << "Balloons"
+  holiday_hash[:winter].each do |key, value|
+    value << "Balloons"
+    puts value
   end
    # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the
